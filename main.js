@@ -1,11 +1,4 @@
-const user = {
-    choices: [
-        "愛知淑徳大学", 
-        "ちいかわのモモンガ集め,温泉・サウナ", 
-        "パピコを食べること", 
-        "パズル",
-    ]
-}
+
 
 
 const button1 = document.getElementById("button1")
@@ -18,10 +11,15 @@ const result3 = document.getElementById("result3")
 const result4 = document.getElementById("result4")
 
 
-
-for (let i = 1; i < 5;i++) {
-    button[i].onclick = function () {
-        result[i].textContent = user.choices[i];
-    };
-}
-
+button1.onclick = function () {
+    result1.textContent = "愛知淑徳大学";
+};
+button2.onclick = function () {
+    result2.textContent = "ちいかわのモモンガ集め、温泉・サウナ";
+};
+button3.onclick = function () {
+    result3.textContent = "パピコを食べること";
+};
+button4.onclick = function () {
+    result4.textContent = "パズル";
+};
