@@ -1,5 +1,5 @@
 .body {
-    height: 1500px;
+    height: 850px;
     width: 100%;
     display: flex;
     flex-flow: column;
@@ -9,9 +9,7 @@
 .name {
     display: flex;
     justify-content: center;
-    height: 100px;
-    padding-top: 50px;
-    margin-left: 400px;
+    padding-top: 20px;
     font-size: 30px;
 }
 .first-block {
@@ -20,11 +18,11 @@
     justify-content: space-around;
 }
 .school {
-    height: 250px;
+    height: 100px;
     width: 100px;
 }
 .hoby {
-    height: 250px;
+    height: 100px;
     width: 100px;
 }
 
@@ -34,11 +32,11 @@
     justify-content: space-around;
 }
 .like {
-    height: 250px;
+    height: 100px;
     width: 100px;
 }
 .special {
-    height: 250px;
+    height: 100px;
     width: 100px;
 }
 .fight {
