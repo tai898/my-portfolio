@@ -1,0 +1,35 @@
+.body {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: rgb(214, 182, 244);
+}
+.name {
+    height: 100px;
+    padding-top: 50px;
+}
+.first-block {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.school {
+    height: 250px;
+}
+.hoby {
+    height: 250px;
+}
+
+.second-block {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+.like {
+    height: 250px;
+}
+.special {
+    height: 250px;
+}
