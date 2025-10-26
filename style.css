@@ -1,5 +1,5 @@
 .body {
-    height: 800px;
+    height: 900px;
     width: 100%;
     display: flex;
     flex-flow: column;
@@ -9,6 +9,7 @@
 .name {
     height: 100px;
     padding-top: 50px;
+    margin-left: 400px;
 }
 .first-block {
     padding-top: 20px;
@@ -17,9 +18,11 @@
 }
 .school {
     height: 250px;
+    width: 100px;
 }
 .hoby {
     height: 250px;
+    width: 100px;
 }
 
 .second-block {
@@ -29,7 +32,9 @@
 }
 .like {
     height: 250px;
+    width: 100px;
 }
 .special {
     height: 250px;
+    width: 100px;
 }
