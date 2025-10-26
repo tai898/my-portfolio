@@ -12,7 +12,13 @@ const button1 = document.getElementById("button1")
 const button2 = document.getElementById("button2")
 const button3 = document.getElementById("button3")
 const button4 = document.getElementById("button4")
-const result = document.getElementById("result")
+const result1 = document.getElementById("result1")
+const result2 = document.getElementById("result2")
+const result3 = document.getElementById("result3")
+const result4 = document.getElementById("result4")
+
+
+
 
 
 for (let i = 1; i < 5;i++) {
