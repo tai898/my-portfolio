@@ -19,11 +19,9 @@ const result4 = document.getElementById("result4")
 
 
 
-
-
 for (let i = 1; i < 5;i++) {
     button[i].onclick = function () {
-        result[i].textContent = user.choices[i]
-    }
+        result[i].textContent = user.choices[i];
+    };
 }
 
